@@ -1,11 +1,25 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/aboutt">Aboutt</router-link>
-  </nav>
-  <router-view/>
+<div>
+      <Admin/>
+</div>
 </template>
+
+<script>
+import router from "./router";
+import Admin from "./views/Admin.vue"
+import HomeView from "./views/HomeView.vue";
+
+export default {
+  components: {
+    Admin,
+    HomeView,
+    router
+}
+  
+}
+
+</script>
+
 
 <style>
 #app {
