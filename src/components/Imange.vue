@@ -222,7 +222,7 @@ label:hover,
     justify-content: flex-start;
     align-items: flex-start;
     gap: 10px;
-    background-color: #878686;
+    background-color: #fbf6f6;
     border: 11px solid;
     border-color: #000000;
     border-radius: 14px;
